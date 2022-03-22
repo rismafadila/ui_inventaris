@@ -7,7 +7,7 @@ class Tiga extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.brown.shade200,
+        color: Colors.brown.shade300,
         alignment: Alignment.center,
         child: ListView(
           children: [
@@ -40,16 +40,11 @@ class Tiga extends StatelessWidget {
                           style: TextStyle(color: Colors.white))),
                 ],
                 rows: const <DataRow>[
+                  
                   DataRow(
                     cells: <DataCell>[
-                      DataCell(Text("Tempat, tanggal lahir")),
-                      DataCell(Text("Bandung, 13 September 2003")),
-                    ],
-                  ),
-                  DataRow(
-                    cells: <DataCell>[
-                      DataCell(Text("Jenis Kelamin")),
-                      DataCell(Text("Perempuan")),
+                      DataCell(Text("Kelas")),
+                      DataCell(Text("XII RPL 1")),
                     ],
                   ),
                   DataRow(
@@ -60,8 +55,8 @@ class Tiga extends StatelessWidget {
                   ),
                   DataRow(
                     cells: <DataCell>[
-                      DataCell(Text("Kelas")),
-                      DataCell(Text("XII RPL 1")),
+                      DataCell(Text("Tentang")),
+                      DataCell(Text("Dengan dibuatnya web ini untuk memudahkan admin dalam mendata stok barang di Lab Maupun Bengkel")),
                     ],
                   ),
                 ],

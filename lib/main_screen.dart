@@ -12,9 +12,10 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
   List<Widget> _widgetOptions = <Widget>[
+    Tiga(),
     Satu(),
     Dua(),
-    Tiga(),
+    
   ];
   @override
   Widget build(BuildContext context) {
